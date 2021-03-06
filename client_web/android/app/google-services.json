@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "523644132256",
+    "firebase_url": "https://area2020epitech.firebaseio.com",
+    "project_id": "area2020epitech",
+    "storage_bucket": "area2020epitech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523644132256:android:6f8b56a56e6f16e83762c5",
+        "android_client_info": {
+          "package_name": "com.example.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523644132256-fjbdcah9fvsrjmqgcfvgjgb23onb5pee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.client",
+            "certificate_hash": "bb9f2d456ee385c0b644253154237d0ca6ba04af"
+          }
+        },
+        {
+          "client_id": "523644132256-9eedlsj0jvribvj20eolc7k300nes8hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFqUlhLmhwnHaxerhGTnZ5-CGceSybpco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523644132256-oabm945du8bui429bovkp30p6sdm8411.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

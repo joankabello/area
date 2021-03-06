@@ -1,0 +1,142 @@
+{
+    "client": {
+        "host": "10.101.52.25"
+    },
+    "server": {
+        "current_time": "1531680780",
+        "services": [{
+            "name": "weather",
+            "actions": [{
+                "name": "Cloud coverage",
+                "description": "cloud coverage is greater than 0"
+            }, {
+                "name": "weather today",
+                "description": "weather today is less than 18"
+            }],
+            "reactions": [{
+                "name": "gmail message",
+                "description": "a mail is sent on behalf of the authenticated user"
+            }, {
+                "name" : "nodemailer message",
+                "description": "a mail is sent to the user by AREA gmail account"
+            }]
+        }, {
+            "name": "bitcoin",
+            "actions": [{
+                "name": "bitcoin price",
+                "description": "the price of bitcoin for today"
+            }, {
+                "name": "bitcoin rises",
+                "description": "the price of bitcoin is going up"
+            }],
+            "reactions": [{
+                "name": "gmail message",
+                "description": "a mail is sent on behalf of the authenticated user"
+            }, {
+                "name" : "nodemailer message",
+                "description": "a mail is sent to the user by AREA gmail account"
+            }]
+        }, {
+            "name": "news",
+            "actions": [{
+                "name" : "published news",
+                "description": "a new news about bitcoin is published"
+            }],
+            "reactions": [{
+                "name": "gmail sent",
+                "description": "a mail is sent to the authenitcated user"
+            }]
+        }, {
+            "name": "drive",
+            "actions": [{
+                "name": "recepe published",
+                "description": "a new vegan recipe is published"
+            }],
+            "reactions": [{
+                "name": "upload recipe",
+                "description": "the recipe is uploaded to the google drive account of the authenicated user"
+            }]
+        }, {
+            "name": "gmail",
+            "actions": [{
+                "name": "bicoin news",
+                "description": "a mail is sent on behalf of the authenticated user about bitcoin news"
+            }, {
+                "name": "bitcoin price",
+                "description": "a mail is sent on behalf of the authenicated user about the price of bitcoin"
+            }, {
+                "name": "weather", 
+                "description": "weather for today"
+            }], 
+            "reactions": [{
+                "name": "mail sent",
+                "description": "a mail is sent to the authenticated user"
+            }, {
+                "name": "mail being sent", 
+                "description": "a mail is sent on behalf of the authenticated user"
+            }]
+        }, {
+            "name": "recipes", 
+            "actions": [{
+                "name": "new recipe",
+                "description": "a new vegan recipe is published"
+            }],
+            "reactions":[{
+                "name": "upload to drive",
+                "description": "the recipe is uploaded to drive"
+            }, {
+                "name": "send mail",
+                "description": "a mail with the recipe is sent to the user"
+            }]
+        }, {
+            "name":"iss",
+            "actions": [{
+                "name": "international space station",
+                "description": "moving over Albania"
+            }, {
+                "name": "number of peoples",
+                "description": "number of peoples on board and their names"
+            }, {
+                "name": "next pass",
+                "description": "description about the next pass over specific coordinates"
+            }],
+            "reactions": [{
+                "name": "send mail",
+                "description": "a mail with all this information is sent to the user"
+            }]
+        }, {
+            "name": "weather news mail",
+            "actions": [{
+                "name": "reach level",
+                "description": "a specific level of temperature and bicoin is reached"
+            }],
+            "reactions": [{
+                "name": "send mail",
+                "description": "a mail is sent to the authenitcated user"
+            }, {
+                "name": "mail being sent",
+                "description": "a mail is sent on behalf of the authenticated user about bitcoin news and api"
+            }]
+        }, {
+            "name": "bitcoin gmail",
+            "actions": [{
+                "name": "bitcoin gmail",
+                "description": "a new bitcoin news is published"
+            }],
+            "reactions":[{
+                "name": "send mail",
+                "description": "a gmail is sent on behalf of the authenitcated user"
+            }]
+        }, {
+            "name": "weather gmail",
+            "actions": [{
+                "name": "weather gmail",
+                "description": "temperature reaches a specific value"
+            }],
+            "reactions":[{
+                "name": "send mail",
+                "description": "a gmail is sent on behalf of the authenticated user with this temperature"
+            }]
+        }]
+    }
+}
